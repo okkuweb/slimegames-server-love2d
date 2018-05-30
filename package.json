@@ -1,0 +1,18 @@
+{
+  "name": "slimegames-server",
+  "version": "1.0.0",
+  "description": "Server for Slimegames online",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "pkg --out-path builds -t node9-linux-x64,node9-win-x64,node9-macos-x64 server.js"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "okkuweb",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^4.3.1"
+  }
+}
